@@ -41,7 +41,7 @@ export default defineConfig({
 	  },
 	})
 ```
-8. Replace your webpart.ts file contents with the one from the webpart-template/src/YOURWebpart/ folder
+8. Replace your webpart/src/webparts/{PROJECT_NAME}/{PROJECT_NAME}WebPart.ts file with the one from webpart-template/src/webparts/YOURWebpart/YOURWebPart.ts
 9. Copy the webpart-template/src/lib/ folder into webpart/src/
 10. Replace all occurences of UNIQUECLIENTAPP with an ID name representing your web part
 11. Test your web part locally:
